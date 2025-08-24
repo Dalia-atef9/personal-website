@@ -1,0 +1,26 @@
+/* theme */
+html:has(.toggle__checkbox:checked) {
+  --color-background: var(--color-black);
+  --color-text: var(--color-white);
+  --color-box-img: var(--color-green);
+  --color-link-bg: var(--color-green);
+  --color-grey: var(--color-black);
+  --color-blue: var(--color-green);
+  --color-input-border: var(--color-white);
+}
+html:has(.toggle__checkbox:checked) .facebook-icon {
+  content: url("../assets/icons8-facebook-circled-30.png");
+}
+html:has(.toggle__checkbox:checked) .linkedin-icon {
+  content: url("../assets/icons8-linkedin-dark.png");
+}
+html:has(.toggle__checkbox:checked) .instgram-icon {
+  content: url("../assets/icons8-instagram-30.png");
+}
+html:has(.toggle__checkbox:checked) .github-icon {
+  content: url("../assets/icons8-github-30.png");
+}
+html:has(.toggle__checkbox:checked) .project__links::after {
+  background-image: url("../assets/icons8-external-link-30\(1\).png");
+}
+/* end theme */
